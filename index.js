@@ -119,7 +119,7 @@ app.get("/stock-list", async (req, res) => {
   try {
     const blogData = await scrapeStockListData();
     res.json(blogData);
-    console.log(blogData.blogData.length);
+    // console.log(blogData.blogData.length);
   } catch (error) {
     console.error("Error:", error);
     res.status(500).send("Internal Server Error");
@@ -130,7 +130,7 @@ app.get("/topdividend", async (req, res) => {
   try {
     const marketData = await topDividendData();
     res.json(marketData);
-    console.log(marketData.marketData.length);
+    // console.log(marketData.marketData.length);
   } catch (error) {
     res.status(500).send("Internal Server Error");
   }
