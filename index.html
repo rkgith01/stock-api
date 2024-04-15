@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock API</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="icon" href="/assets/flogo.png" />
+  </head>
+  <body>
+    <div class="col-md-2 mt-2 text-center">
+      <img src="/assets/logo.png" class="main-logo rounded" alt="main logo" />
+    </div>
+    <div class="container">
+      <div class="col-md-12 mt-3 text-center rounded p-2 border">
+        <h1 class="mt-4">Stock API</h1>
+        <p class="lead">Welcome to this page</p>
+        <p class="mb-4">
+          Usage Info: This API provides data on stocks list blog and canadian
+          stock market best perfomrming stocks market data from tmx as source.
+        </p>
+      </div>
+      <div class="row justify-content-center"></div>
+
+      <div class="row content-section">
+        <div class="col-md-12">
+          <h2 class="text-center">Endpoints</h2>
+          <ul class="list-unstyled">
+            <li>
+              <a href="/stock-list" target="_blank" class="text-info"
+                ><strong>/stock-list</strong></a
+              >: Fetches stock-list data.
+              <ul class="endpoint-info">
+                <li>Rate Limit: 100 requests per hour</li>
+                <li>Pricing Plan: Free</li>
+                <li>
+                  <a href="#" class="buy-upgrade-link"
+                    >Buy or Upgrade to Paid Plan</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="/topdividend" target="_blank" class="text-info"
+                ><strong>/topdividend</strong></a
+              >: Fetches Stocks with the highest dividend yield data.
+              <ul class="endpoint-info">
+                <li>Rate Limit: 100 requests per hour</li>
+                <li>Pricing Plan: Free</li>
+                <li>
+                  <a href="#" class="buy-upgrade-link"
+                    >Buy or Upgrade to Paid Plan</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <p class="mt-4">
+            Note: Please adhere to the rate limits to ensure smooth operation of
+            the API.
+          </p>
+          <p>Try going to any of the paths mentioned above to retrieve data.</p>
+        </div>
+      </div>
+
+      <div class="footer mt-4 text-center text-primary">
+        <img
+          src="/assets/mainlogo.png"
+          class="footer-logo rounded-circle"
+          alt="main logo"
+        />
+        <p>This API is developed by Raj Kapadia &copy; 2024</p>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

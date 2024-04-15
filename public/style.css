@@ -1,0 +1,28 @@
+
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #204365;
+  color: #fff;
+}
+.main-logo {
+  width: 100px;
+  height: 100px;
+}
+.content-section {
+  margin-top: 50px;
+}
+.endpoint-info {
+  margin-top: 20px;
+}
+.buy-upgrade-link {
+  color: #ffc107;
+}
+
+.footer-logo{
+  width: 100px;
+  height: 100px;
+}
